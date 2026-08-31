@@ -13,8 +13,7 @@
 - **Frontend:** HTML5 / CSS3 / JavaScript
 - **Tools:** Git / GitHub 
 
-## 📊 我的 GitHub 統計
-![applepie.2569](https://vercel.app)
+
 
 
 
