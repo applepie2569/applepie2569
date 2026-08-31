@@ -1,16 +1,19 @@
 ## Hi there 👋
+# Hi 👋, 我是 [applepie2569]
 
-<!--
-**applepie2569/applepie2569** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+一個熱愛學習與分享的網頁開發者 / 程式設計師。
 
-Here are some ideas to get you started:
+## 🚀 關於我
+- 🔭 目前正在專注於：[例如：學習網頁前端開發 / 刷 LeetCode]
+- 🌱 持續精進的技術：HTML, CSS, JavaScript, Git
+- ⚡ 興趣愛好：[例如：看技術文章、打電動、喝咖啡]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ 技能樹 (Skills)
+<!-- 這裡可以用文字，或是稍後我教你換成精美的彩色圖標 -->
+- **Frontend:** HTML5 / CSS3 / JavaScript
+- **Tools:** Git / GitHub / VS Code
+
+## 📊 我的 GitHub 統計
+![Anurag's GitHub stats](https://vercel.app)
+
+
