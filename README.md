@@ -14,6 +14,7 @@
 - **Tools:** Git / GitHub 
 
 ## 📊 我的 GitHub 統計
-![Anurag's GitHub stats](https://vercel.app)
+![My GitHub stats](https://vercel.app)
+
 
 
