@@ -11,7 +11,7 @@
 ## 🛠️ 技能樹 (Skills)
 <!-- 這裡可以用文字，或是稍後我教你換成精美的彩色圖標 -->
 - **Frontend:** HTML5 / CSS3 / JavaScript
-- **Tools:** Git / GitHub / VS Code
+- **Tools:** Git / GitHub 
 
 ## 📊 我的 GitHub 統計
 ![Anurag's GitHub stats](https://vercel.app)
