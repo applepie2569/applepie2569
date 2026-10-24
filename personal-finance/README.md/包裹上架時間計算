@@ -1,0 +1,29 @@
+from datetime  import datetime
+print("=====蝦皮包裹上架秒數=====")
+
+packages=float(input("please enter the numer of packages:"))
+
+start_str=input("please enter start time(e.g.,8:30):")
+end_str=input("please enter end time(e.g.,11:25):")
+
+time_format= "%H:%M"
+start_time=datetime.strptime(start_str,time_format)
+end_time=datetime.strptime(end_str,time_format)
+
+#計算時間差
+seconds =(end_time - start_time).total_seconds()
+print(f"Total elapsed time:{seconds}seconds")
+
+
+
+if seconds <15:
+    total_seconds=packages /seconds
+    print("Notice!the timelimit has been exceeded!")
+elif seconds ==15:
+    print("excellent,keep going.")
+else:
+    print("Error:End time must be later than start time.")
+    
+time_per_package= seconds / packages
+print(f"AVerage time per package:{round(time_per_package,1)}seconds")
+    
