@@ -1,0 +1,48 @@
+import random
+
+while True:
+    print("大樂透選號系統")
+    print("1. 產生大樂透號碼")
+    print("2. 重新選號")
+    print("3. 離開程式")
+    print("4. 送你一朵動態盛開的花")
+
+    choice = int(input("請選擇："))
+
+    if choice == 1:
+        groups = int(input("請輸入要產生幾組大樂透號碼:"))
+        if groups > 6:
+            print("錯誤: 1到41的數字不重複，最多只能產生6組！")
+        else:
+            for i in range(groups):
+                numbers = random.sample(range(1, 41), 6)
+                numbers.sort()
+                print("第", i + 1, "組:", numbers)
+    elif choice == 2:
+        print("重新選號！")
+        print("請重新選擇功能。")
+        continue
+    elif choice == 3:
+        print("謝謝使用！")
+        break
+    elif choice == 4:
+        print("\n🌸 送你一朵動態盛開的花 🌸")
+        import time
+        time.sleep(0.3); print("       _ _")
+        time.sleep(0.3); print("     .-. .-. ")
+        time.sleep(0.3); print("    (   |   )")
+        time.sleep(0.3); print("   .-.: .-. :.-.")
+        time.sleep(0.3); print("  (   | X |   )")
+        time.sleep(0.3); print("   `-': `-' :`-':")
+        time.sleep(0.3); print("    (   |   )")
+        time.sleep(0.3); print("     `-' `-'")
+        time.sleep(0.3); print("       \\|/")
+        time.sleep(0.3); print("        |/")
+        time.sleep(0.3); print("     \\  |")
+        time.sleep(0.3); print("      \\ | /")
+        print("✨ 花朵盛開成功！ ✨\n")
+
+    else:
+        print("請輸入 1、2、3 或4")
+
+
